@@ -62,9 +62,12 @@ h4{
 }
 footer a{
     color:white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 a:hover{
     
-    text-decoration: none;
+    text-decoration: underline;
+}
+h3{
+    text-decoration: underline;
 }
