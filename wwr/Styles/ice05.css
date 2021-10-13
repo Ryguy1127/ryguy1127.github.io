@@ -1,0 +1,39 @@
+
+body {
+    background-color: #737373;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+#threeImages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.circles {
+    width: 250px;
+    border-radius: 250px;
+    border: solid 10px #444444;
+    margin: 50px auto;
+}
+.imageWords{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: 300px;
+    right: 16px;
+}
+
+.names{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: 250px;
+    right: 16px;
+}
