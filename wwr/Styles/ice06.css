@@ -1,4 +1,6 @@
-body, h1, h2,  h3, h4, h5, h6{
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@700&display=swap');
+
+body, h1, h2,  h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
     text-align: center;
@@ -16,7 +18,7 @@ h2{
 }
 h3{
     text-align: left;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 main{
     display:grid;
@@ -24,7 +26,7 @@ main{
     grid-template-columns: 1fr 2fr;
     grid-column: 1/2;
     margin: 0 auto;
-    background-color: lightgray;
+ 
 }
 .email, .name{
     max-width: 400px;
@@ -32,6 +34,7 @@ main{
     box-sizing: border-box;
     border-radius: 5px;
     font-size: 100px;
+    margin-left: 20px;
 }
 
 input {
@@ -39,15 +42,24 @@ input {
     height: 75px;
     margin-right: -450px;
 }
+input[type="checkbox"] {
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-top: -25px;
+}
 
 button{
     border-radius: 10px;
-    background-color: orange;
+    background-color: #E0996B;
     border: 1px solid black;
     font-size: 30px;
-    margin-left: -500px;
+    margin-left: 200px;
     margin-top: 20px;
     color: white;
+    font-family: 'Fira Mono',serif;
+    padding:10px 20px;
 }
 
 .display {
@@ -57,6 +69,14 @@ button{
    float: left;
    min-height: 800px;
    max-width: 100%;
+}
+.x{
+    height: 20px;
+    width: 20px;
+    z-index: 2;
+    grid-column: 2;
+    float: right;
+
 }
 .checkbox{
     margin-right: 200px;
