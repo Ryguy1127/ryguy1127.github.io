@@ -116,7 +116,7 @@ h2{
     align-self: center;
 }
 footer .social img{
-    padding-top: 15;
+    padding-top: 15, 0;
 }
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
