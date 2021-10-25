@@ -25,6 +25,8 @@ main section{
 #background{
     height: 725px;
     background-color: rgb(209, 205, 205);
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 body{
     background-color: gray;
@@ -164,10 +166,6 @@ main section img {
 .rapids-card{
     grid-column: 8/10;
     grid-row: 2/3;
-}
-#background{
-    grid-column: 1/11;
-    grid-row: 4/9;
 }
 .mountains{
     grid-column: 2/7;
