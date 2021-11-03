@@ -1,0 +1,90 @@
+body {
+    background-color: lightgrey;
+}
+button {
+    border-radius: 10px;
+    background-color: #4682d5;
+    border: 3px solid #a9a9a9;
+    font-size: 20px;
+    color: white;
+    font-family: 'Fira Mono',serif;
+    padding:7px 30px 7px 30px;
+}
+.button1 {
+    margin: 0 auto;
+}
+.check {
+    text-align: center;
+}
+ h2 {
+    text-align: center;
+}
+h4{
+    text-align: center;
+    color: blue;
+}
+.windmill {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.popup{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 35px;
+    max-width: 400px;
+    max-height: 500px;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.buttonBlue{
+    border-radius: 5px;
+    font-family: Calibri;
+    border: 0px;
+    background-color: #4682d5;
+    font-size: 20px;
+    color: white;
+    padding:10px 30px;
+    text-align: center;
+}
+
+.buttonBlue:hover{
+    border-radius: 5px;
+    font-family: Calibri;
+    border: 0px;
+    background-color: #709ad4;
+    font-size: 20px;
+    color: white;
+    padding:10px 30px;
+    text-align: center;
+}
+
+.buttonGray{
+    border-radius: 5px;
+    border: 0px;
+    background-color: #a9a9a9;
+    font-size: 20px;
+    color: white;
+    padding:10px 30px;
+    text-align: center;
+}
+
+.buttonGray:hover{
+    border-radius: 5px;
+    border: 0px;
+    background-color: #bdbdbd;
+    font-size: 20px;
+    color: white;
+    padding:10px 30px;
+    text-align: center;
+}
+hr { display: block; 
+     overflow: hidden;
+     border-style: inset;
+     border-width: .5px;
+     background-color:rgba(100, 100, 100, 0.5);
+}
