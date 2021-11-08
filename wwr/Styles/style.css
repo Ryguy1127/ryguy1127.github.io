@@ -48,7 +48,7 @@ nav a:hover{
 }
 .home-title{
     color:Red;
-    font-size: 2em;
+    font-size: 2.5em;
     margin-top: 10px;
 }
 h4{
@@ -65,7 +65,7 @@ h4{
     color: red;
 }
 .icon{
-    padding-top: 10px;
+    padding-top: 30px;
 }
 .msg p{
     color: red;
@@ -125,6 +125,9 @@ footer .social img{
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
 }
+.rivers{
+    padding: 5px;
+}
 .card-img{
     border: 10px solid black;
 }
@@ -150,9 +153,11 @@ main section img {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+   
 }
 #hero-msg h4 {
     color: white;
+    margin-top: -19px;
 }
 .home-grid{
     display: grid;
