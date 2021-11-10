@@ -33,7 +33,7 @@ nav a {
 }
 #hero1-msg h1 {
     text-align: center;
-    color: white;
+    color: tan;
     font-size: 72px;
 }
 #hero-msg h1 {
@@ -69,7 +69,7 @@ main section img {
 }
 #background {
     height: 725px;
-    background-color: black;
+    background-color: rgb(88, 62, 4);
     margin: 50px 0;
     grid-column: 1/11;
     grid-row: 4/9;
@@ -84,7 +84,7 @@ body {
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: black;
+    background-color: rgb(43, 99, 26);
     color: black;
 }
 nav a:hover {
@@ -136,7 +136,7 @@ nav a:hover {
     padding-bottom: 15px;
 }
 footer {
-    background-color: black;
+    background-color: rgb(43, 99, 26);
     color: tan;
     text-decoration: none;
     font-size: 16px;
@@ -152,7 +152,7 @@ footer a {
     text-decoration: none;
 }
 footer a:hover {
-    color: white;
+    color: black;
     text-decoration :underline;
 }
 footer .social img {
@@ -234,19 +234,7 @@ h2 {
     margin-bottom: 200px;
     align-items: center;
 }
-.card1-img {
-    border: 10px solid #968a7a;
-    transition: transform .5s;
-    box-shadow: 1px 1px 5px #6f7364;
-    width: 10000px;
-}
 .card2-img {
-    border: 10px solid #968a7a;
-    transition: transform .5s;
-    box-shadow: 1px 1px 5px #6f7364;
-    width: 1999px;
-}
-.card3-img {
     border: 10px solid #968a7a;
     transition: transform .5s;
     box-shadow: 1px 1px 5px #6f7364;
@@ -338,7 +326,7 @@ h2 {
     }
     .home-title {
         font-size: 25px;
-        color:black;
+        color: #6f7364;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
