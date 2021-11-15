@@ -1,0 +1,16 @@
+body{
+    font-family: Quicksand, sans-serif;
+    background-color: #e4d6d3;
+}
+#weather-card{
+    width:235px;
+    height:341px;
+    display: grid;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+    margin: 0 auto;
+    grid-template-columns: 142px 1fr;
+    grid-template-rows: 86px 68px 22px 36px 89px 25px 1fr;
+
+}
