@@ -1,0 +1,14 @@
+body{
+    background-color: gray;
+}
+.home{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+h3{
+    width: 500px;
+    margin: 0 auto;
+
+}
