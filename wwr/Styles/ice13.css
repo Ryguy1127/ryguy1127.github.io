@@ -1,0 +1,39 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.london{
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+input{
+    padding:10px 20px;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    border:0px;
+    width: 200px;
+    display:block;
+    margin:10px;
+}
+
+button{
+    background-color: #2d5590;
+    color:white;
+    padding:10px;
+    border-radius: 5px;
+    border:0px;
+    width: 200px;
+    display:block;
+    margin:10px;
+}
+
+h1{
+    color: #2d5590;
+}
+
+.bold{
+    font-weight: bold;
+}
